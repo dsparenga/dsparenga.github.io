@@ -1,0 +1,74 @@
+<!doctype html>
+<!--
+	Basic HTML page setup.
+-->
+<html lang="en">
+<head>
+	<!--META TAG-->
+    <meta charset="UTF-8"> <!-- most common charset-->
+	<title>About Derek</title>
+	<meta name="description" content="Free Web tutorials"> <!--description meta has a single comment
+	used to build your web site description for web searches -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript"> <!-- keywords used for web searches-->
+	<meta name="author" content="Derek Sparenga"> <!-- Author of the page-->
+	
+	<!--LINK TAG-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+	<!-- SCRIPT TAG FOR JAVASCRIPT -->
+	<script src="normalize.js" ></script> 
+	<script src="bootstrap/js/bootstrap.js" ></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+	<!-- PLACE JAVASCRIPT BELOW STYLESHEETS FOR THE FOLLOWING REASON:
+	Drop the script tags in the <head> of your HTML. 
+	For best performance, you should have them follow after your stylesheet references. 
+	The reason we recommend placing Modernizr in the head is two-fold: 
+	the HTML5 Shiv (that enables HTML5 elements in IE) must execute before the <body>, 
+	and if you’re using any of the CSS classes that Modernizr adds, you’ll want to prevent a FOUC.
+	-->
+	
+
+	
+</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8">
+				</div>
+				<div class="col-md-4 hidden-xs">
+					<nav class="nav">
+						<ul class="nav navbar-default nav-pills nav-justified">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a target="_blank" href="defcon.html">DefCon</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+
+					</nav>
+				</div>
+			</div>
+			<div class="space25"></div>
+			
+			<div class="row">
+				<h3 class="text-center">Background</h3>
+				<p class="col-md-4 col-md-offset-4 wow bounceInUp">I graduated from Arizona State in 2009. My web development experience includes making use of current HTML5 and CSS3
+				standards. I also make use of common responsive standards, such as Bootstrap and SASS extensions. I have experience implementing SQL and MySQL databases into web sites.
+				<br><br>
+				I also like to create multimedia, such as videos and photo galleries, for web sites.
+				</p>
+			</div>						
+			
+		</div>
+		
+		<script>
+              new WOW().init();
+              </script>
+	</body>
