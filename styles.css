@@ -2,4 +2,25 @@
   height: 25px;
   clear: both; }
 
+.derek {
+  background-color: yellow;
+  font-color: black; }
+
+.nicoley {
+  background-color: orange; }
+
+.nicolem {
+  background-color: orange;
+  opacity: 0.5; }
+
+.nicolem a {
+  color: black; }
+
+.bothofus {
+  background-color: green; }
+
+.bothofus a {
+  color: white;
+  font-size: 18px; }
+
 /*# sourceMappingURL=styles.css.map */
