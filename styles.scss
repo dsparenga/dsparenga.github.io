@@ -29,3 +29,164 @@
 	color:white;
 	font-size:18px;
 	}
+	
+#btnSize {
+	font-size:30px;
+	height:100px;
+	margin:auto;
+}	
+
+@for $i from 1 through 10 {
+    th:nth-of-type(#{$i}) {
+      -webkit-animation-delay:(#{$i*1s}); 
+      animation-delay:(#{$i*1s}); 
+    }
+}
+
+#skill1 {
+	opacity:0;
+	visibility:hidden;
+	text-align:center;
+}
+
+
+#skill1:not(:target) {
+	opacity:0;
+	transition:3s;
+	font-size:inherit;
+	visibility:hidden;
+}
+
+#skill1:target {
+	color:blue;
+	opacity:1;
+	transition:3s;
+	font-size:60px;
+	visibility:visible;
+	
+}
+
+
+.skill2c {
+	opacity:0;
+	visibility:hidden;
+}
+
+.skill2c:not(:target) {
+	opacity:0;
+	visibility:hidden;
+}
+
+.skill2c img {
+	align:middle;
+	margin:auto;
+}
+
+.skill2c:target {
+	opacity:1;
+	visibility:visible;
+}
+
+@keyframes imgfade {
+  0%   { opacity: 0; }
+  11.11%   { opacity: 1; }
+  33.33%  { opacity: 1; }
+  44.44%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.skill2c img { 
+    opacity:0; 
+    animation-name: imgfade; 
+    animation-duration: 18s; 
+    animation-iteration-count: infinite; 
+    position:absolute; 
+    left:0; 
+    right:0; 
+}
+
+
+@for $i from 1 through 12 {
+    .skill2c img:nth-child(#{$i}) {
+      -webkit-animation-delay:(#{$i*1.5s-1.5}); 
+      animation-delay:(#{$i*1.5s-1.5}); 
+    }
+}
+
+#skill3 {
+	visibility:none;
+	opacity:0;
+}
+
+#skill3:not(:target) {
+	visibility:none;
+	opacity:0;
+}
+
+#skill3:target {
+	visibility:visible;
+	opacity:1;
+}
+
+@keyframes flashthru {
+  0%   { opacity: 1; }
+  12%   { opacity: 1; }
+  12%  { opacity: 0; }
+  33.33%  { opacity: 0; }
+  44.44%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.skill3c img { 
+    opacity:0; 
+    animation-name: flashthru; 
+    animation-duration: 12s; 
+    animation-iteration-count: infinite; 
+}
+
+
+@for $i from 1 through 12 {
+    .skill3c img:nth-child(#{$i}) {
+      -webkit-animation-delay:(#{$i*1s-1}); 
+      animation-delay:(#{$i*1s-1}); 
+    }
+}
+
+#skill4 {
+	visibility:none;
+	opacity:0;
+}
+
+#skill4:not(:target) {
+	visibility:none;
+	opacity:0;
+}
+
+#skill4:target {
+	visibility:visible;
+	opacity:1;
+}
+
+@keyframes flashthru {
+  0%   { opacity: 1; }
+  12%   { opacity: 1; }
+  12%  { opacity: 0; }
+  33.33%  { opacity: 0; }
+  44.44%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.skill4c img { 
+    opacity:0; 
+    animation-name: flashthru; 
+    animation-duration: 12s; 
+    animation-iteration-count: infinite; 
+}
+
+
+@for $i from 1 through 12 {
+    .skill4c img:nth-child(#{$i}) {
+      -webkit-animation-delay:(#{$i*1s-1}); 
+      animation-delay:(#{$i*1s-1}); 
+    }
+}

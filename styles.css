@@ -23,4 +23,309 @@
   color: white;
   font-size: 18px; }
 
+#btnSize {
+  font-size: 30px;
+  height: 100px;
+  margin: auto; }
+
+th:nth-of-type(1) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+th:nth-of-type(2) {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s; }
+
+th:nth-of-type(3) {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s; }
+
+th:nth-of-type(4) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s; }
+
+th:nth-of-type(5) {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s; }
+
+th:nth-of-type(6) {
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s; }
+
+th:nth-of-type(7) {
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s; }
+
+th:nth-of-type(8) {
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s; }
+
+th:nth-of-type(9) {
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s; }
+
+th:nth-of-type(10) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s; }
+
+#skill1 {
+  opacity: 0;
+  visibility: hidden;
+  text-align: center; }
+
+#skill1:not(:target) {
+  opacity: 0;
+  transition: 3s;
+  font-size: inherit;
+  visibility: hidden; }
+
+#skill1:target {
+  color: blue;
+  opacity: 1;
+  transition: 3s;
+  font-size: 60px;
+  visibility: visible; }
+
+.skill2c {
+  opacity: 0;
+  visibility: hidden; }
+
+.skill2c:not(:target) {
+  opacity: 0;
+  visibility: hidden; }
+
+.skill2c img {
+  align: middle;
+  margin: auto; }
+
+.skill2c:target {
+  opacity: 1;
+  visibility: visible; }
+
+@keyframes imgfade {
+  0% {
+    opacity: 0; }
+  11.11% {
+    opacity: 1; }
+  33.33% {
+    opacity: 1; }
+  44.44% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+.skill2c img {
+  opacity: 0;
+  animation-name: imgfade;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  left: 0;
+  right: 0; }
+
+.skill2c img:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+.skill2c img:nth-child(2) {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s; }
+
+.skill2c img:nth-child(3) {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s; }
+
+.skill2c img:nth-child(4) {
+  -webkit-animation-delay: 4.5s;
+  animation-delay: 4.5s; }
+
+.skill2c img:nth-child(5) {
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s; }
+
+.skill2c img:nth-child(6) {
+  -webkit-animation-delay: 7.5s;
+  animation-delay: 7.5s; }
+
+.skill2c img:nth-child(7) {
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s; }
+
+.skill2c img:nth-child(8) {
+  -webkit-animation-delay: 10.5s;
+  animation-delay: 10.5s; }
+
+.skill2c img:nth-child(9) {
+  -webkit-animation-delay: 12s;
+  animation-delay: 12s; }
+
+.skill2c img:nth-child(10) {
+  -webkit-animation-delay: 13.5s;
+  animation-delay: 13.5s; }
+
+.skill2c img:nth-child(11) {
+  -webkit-animation-delay: 15s;
+  animation-delay: 15s; }
+
+.skill2c img:nth-child(12) {
+  -webkit-animation-delay: 16.5s;
+  animation-delay: 16.5s; }
+
+#skill3 {
+  visibility: none;
+  opacity: 0; }
+
+#skill3:not(:target) {
+  visibility: none;
+  opacity: 0; }
+
+#skill3:target {
+  visibility: visible;
+  opacity: 1; }
+
+@keyframes flashthru {
+  0% {
+    opacity: 1; }
+  12% {
+    opacity: 1; }
+  12% {
+    opacity: 0; }
+  33.33% {
+    opacity: 0; }
+  44.44% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+.skill3c img {
+  opacity: 0;
+  animation-name: flashthru;
+  animation-duration: 12s;
+  animation-iteration-count: infinite; }
+
+.skill3c img:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+.skill3c img:nth-child(2) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+.skill3c img:nth-child(3) {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s; }
+
+.skill3c img:nth-child(4) {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s; }
+
+.skill3c img:nth-child(5) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s; }
+
+.skill3c img:nth-child(6) {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s; }
+
+.skill3c img:nth-child(7) {
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s; }
+
+.skill3c img:nth-child(8) {
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s; }
+
+.skill3c img:nth-child(9) {
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s; }
+
+.skill3c img:nth-child(10) {
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s; }
+
+.skill3c img:nth-child(11) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s; }
+
+.skill3c img:nth-child(12) {
+  -webkit-animation-delay: 11s;
+  animation-delay: 11s; }
+
+#skill4 {
+  visibility: none;
+  opacity: 0; }
+
+#skill4:not(:target) {
+  visibility: none;
+  opacity: 0; }
+
+#skill4:target {
+  visibility: visible;
+  opacity: 1; }
+
+@keyframes flashthru {
+  0% {
+    opacity: 1; }
+  12% {
+    opacity: 1; }
+  12% {
+    opacity: 0; }
+  33.33% {
+    opacity: 0; }
+  44.44% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+.skill4c img {
+  opacity: 0;
+  animation-name: flashthru;
+  animation-duration: 12s;
+  animation-iteration-count: infinite; }
+
+.skill4c img:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+.skill4c img:nth-child(2) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+.skill4c img:nth-child(3) {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s; }
+
+.skill4c img:nth-child(4) {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s; }
+
+.skill4c img:nth-child(5) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s; }
+
+.skill4c img:nth-child(6) {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s; }
+
+.skill4c img:nth-child(7) {
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s; }
+
+.skill4c img:nth-child(8) {
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s; }
+
+.skill4c img:nth-child(9) {
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s; }
+
+.skill4c img:nth-child(10) {
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s; }
+
+.skill4c img:nth-child(11) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s; }
+
+.skill4c img:nth-child(12) {
+  -webkit-animation-delay: 11s;
+  animation-delay: 11s; }
+
 /*# sourceMappingURL=styles.css.map */
